@@ -1,2 +1,2 @@
 # Pagina-peones
-Pagina informativa ecah con Css y HMTL
+Pagina informativa echa con Css y HMTL
