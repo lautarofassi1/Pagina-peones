@@ -1,0 +1,31 @@
+#cabeza {
+    background-color: rgb(3, 28, 118);
+    color: rgb(255,255,51);
+    
+}
+
+html, body {
+    font-family: Verdana;
+}
+
+a:link {
+    text-decoration: none;
+    
+}
+
+.col-md-4:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 0.5;
+    padding: 0.25rem;
+    transition: all 0.3s ease;
+}
+
+.img {
+    cursor: pointer;
+}
+
+.noticias{
+	font-size: 12px;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"/>
+		<link href="style.css" rel="stylesheet"/>
+		<title>FORMULARIO</title>
+	</head>
+	<body>
+		<table class="table table-striped">
+			<thead>
+				<tr id="cabeza">
+					<th>Ingrese sus datos
+					</th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="primera">
+						<label id="lblnombre" for="txtNombre">Nombre:</label>
+					</td>
+					<td class="primera">
+						<input class="form-control" type="" id="txtNombre" name="txtNombre" placeholder="nombre"/>
+					</td>
+				</tr>
+				<tr>
+					<td class="segunda">
+						<label for="txtApellido">Apellido:</label>
+					</td>
+					<td class="segunda">
+						<input class="form-control" type="" id="txtApellido" name="txtApellido" placeholder="Apellido"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="txtDireccionytelefono">Direccion y Telefono:</label>
+					</td>
+					<td>
+						<input class="form-control" type="" id="Direccionytelefono" name="txtDireccionytelefono" placeholder="Direccion y telefono"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="email">Ingrese su Email:</label>
+					</td>
+					<td>
+						<input class="form-control" type="email" id="txtemail" pattern=".+@Gmail\.com" size="30" required placeholder="Email"</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="Edad">Edad:</label>
+					</td>
+					<td>
+						<input class="form-control" type="number" id="txtEdad" name="txtEdad" placeholder="Edad" min="5" max="99"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="Fecha de Nacimiento">Fecha de Nacimiento:</label>
+					</td>
+					<td>
+						<input class="form-control" type="date" id="txtFechadenacimiento" name="txtFechadenacimiento" value="XX/XX/XX" min="01/01/1994" max="01/01/2122"</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="ddltipodocumento">Documento Tipo:</label>
+					</td>
+					<td>
+						<select class="form-control" name="select" id="ddltipodocumento" name="ddltipodocumento">
+							<option class="dropdown-item" value="value1">DNI</option>
+							<option class="dropdown-item" value="value2">LE</option>
+							<option class="dropdown-item" value="value3">CI</option>
+						</select>
+						<input class="form-control" placeholder="Nro documento" type="number" id="txtNroDocumento"</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="rbtnSexo">Sexo:</label>
+					</td>
+					<td>
+						<input class="form-check-input" type="radio" id="rbtnMasculino" name="rbtnSexo" value="Masculino"/>
+						<label class="form-check-label" for="rbtnMasculino">Masculino</label>
+						<input class="form-check-input" type="radio" id="rbntFemenino" name="rbtnSexo" value="Femenino"/>
+						<label class="form-check-label" for="rbntFemenino">Femenino</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="pwdContraseña">Ingrese contraseña</label>
+					</td>
+					<td>
+						<input class="form-control" Type="password" placeholder="Ingrese contraseña"</td>
+				</tr>
+				<tr>
+					<td>
+						<a class=" btn btn-primary" id="lkEnviar" href="gracias.html">Enviar</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<hr/>
+		<center>
+			<a class="btn btn-primary" href="Index.html">Pagina Principal</a>
+		<center>
+	</body>
+	<form action="/formulario" method="post"/>
+</html>
